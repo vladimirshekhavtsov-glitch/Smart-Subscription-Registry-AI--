@@ -1,0 +1,137 @@
+[
+  {
+    "id": "27a34492-90fd-4996-bca5-8d2c85982e99",
+    "title": "Netflix",
+    "amount": 9.99,
+    "currency": "USD",
+    "category": "subscription",
+    "next_payment_date": "2026-07-09",
+    "status": "active"
+  },
+  {
+    "id": "052f29c1-7c13-4354-b024-8d16ae116a11",
+    "title": "Spotify Premium",
+    "amount": 5.99,
+    "currency": "USD",
+    "category": "subscription",
+    "next_payment_date": "2026-07-12",
+    "status": "active"
+  },
+  {
+    "id": "6baf9f08-56a1-43d5-b992-a09c35ebee55",
+    "title": "Яндекс Плюс",
+    "amount": 399.0,
+    "currency": "RUB",
+    "category": "subscription",
+    "next_payment_date": "2026-07-15",
+    "status": "active"
+  },
+  {
+    "id": "9a1b69a9-d9da-4561-a327-77aa1d729591",
+    "title": "iCloud+ 200GB",
+    "amount": 2.99,
+    "currency": "USD",
+    "category": "subscription",
+    "next_payment_date": "2026-07-20",
+    "status": "active"
+  },
+  {
+    "id": "dd3e8667-b439-4425-8337-46a395806736",
+    "title": "Фитнес-клуб, абонемент",
+    "amount": 45.0,
+    "currency": "EUR",
+    "category": "membership",
+    "next_payment_date": "2026-07-25",
+    "status": "active"
+  },
+  {
+    "id": "ab44ec17-050c-4673-9280-1f8c080805b0",
+    "title": "Аренда VPS-сервера",
+    "amount": 12.0,
+    "currency": "USD",
+    "category": "utility",
+    "next_payment_date": "2026-08-01",
+    "status": "active"
+  },
+  {
+    "id": "3c72b331-c780-47ff-b3d3-c4cd4975aeb2",
+    "title": "Страховка ОСАГО",
+    "amount": 8500.0,
+    "currency": "RUB",
+    "category": "insurance",
+    "next_payment_date": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "002366e3-5880-4443-928e-d5c145e8027a",
+    "title": "Интернет (ЖКХ)",
+    "amount": 650.0,
+    "currency": "RUB",
+    "category": "utility",
+    "next_payment_date": "2026-07-10",
+    "status": "active"
+  },
+  {
+    "id": "962ee381-f031-4de8-a02e-f3182e9c97cd",
+    "title": "Автокредит, платёж",
+    "amount": 220.0,
+    "currency": "USD",
+    "category": "loan",
+    "next_payment_date": "2026-07-28",
+    "status": "active"
+  },
+  {
+    "id": "02d88200-6ee5-4611-83b1-4ec96b0a01ad",
+    "title": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "currency": "USD",
+    "category": "subscription",
+    "next_payment_date": "2026-07-14",
+    "status": "active"
+  },
+  {
+    "id": "d26101f2-ae98-4bfe-84c0-0472f8fb6ab2",
+    "title": "Disney+",
+    "amount": 8.99,
+    "currency": "EUR",
+    "category": "subscription",
+    "next_payment_date": "2026-07-11",
+    "status": "paused"
+  },
+  {
+    "id": "ca996bbe-8b27-4a97-a9ac-31d5a8bc74f6",
+    "title": "Мобильная связь (старый тариф)",
+    "amount": 500.0,
+    "currency": "RUB",
+    "category": "subscription",
+    "next_payment_date": "2025-11-01",
+    "status": "cancelled"
+  },
+  {
+    "id": "c706daa7-9437-434b-ac6b-d07974886d50",
+    "title": "Абонемент в бассейн",
+    "amount": 3200.0,
+    "currency": "RUB",
+    "category": "membership",
+    "next_payment_date": "2026-07-09",
+    "status": "active"
+  },
+  {
+    "id": "029857fd-50e4-45a4-9266-55b8fbac0b4d",
+    "title": "Хостинг сайта",
+    "amount": 15.0,
+    "currency": "USD",
+    "category": "utility",
+    "next_payment_date": "2026-08-15",
+    "status": "active"
+  },
+  {
+    "id": "bb5205fd-6278-4d93-997b-6965588a4ae6",
+    "title": "Курс английского языка",
+    "amount": 60.0,
+    "currency": "EUR",
+    "category": "subscription",
+    "next_payment_date": "2026-07-30",
+    "status": "active"
+  }
+]

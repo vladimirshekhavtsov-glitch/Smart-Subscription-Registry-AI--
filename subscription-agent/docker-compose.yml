@@ -1,0 +1,14 @@
+services:
+  agent:
+    build: .
+    image: subscription-agent:latest
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+    # stdin_open + tty let `docker compose up` drop you into the interactive
+    # REPL. For a single non-interactive question, either set AGENT_QUESTION
+    # in .env, or run:
+    #   docker compose run --rm agent "Ваш вопрос здесь"
+    stdin_open: true
+    tty: true

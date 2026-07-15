@@ -1,0 +1,11 @@
+langchain>=0.2.14,<0.3
+langchain-core>=0.2.36,<0.3
+# Default provider (see LLM_PROVIDER in .env). Both are installed so you can
+# switch between them with a single env var — comment one out if you only
+# ever plan to use the other.
+langchain-groq>=0.1.9,<0.2
+langchain-openai>=0.1.22,<0.2
+python-dotenv>=1.0.1
+requests>=2.31.0
+pydantic>=2.7.0
+pytest>=8.0.0
