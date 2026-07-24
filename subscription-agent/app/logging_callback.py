@@ -1,18 +1,3 @@
-"""Console logger for the agent's reasoning loop.
-
-The task requires that every Thought / Action / Observation step be visible
-in the console. Thought/Action come from LangChain's own callback hooks
-(``on_agent_action`` / ``on_agent_finish``) — this is the extension point
-the framework provides for this, rather than hand-rolling the ReAct loop.
-
-The Observation line is intentionally printed elsewhere, directly inside the
-tool functions in ``app/tools.py``: with some tool-calling model/provider
-combinations, ``on_tool_end`` was observed to silently never fire (even
-though ``on_agent_action``/``on_agent_finish`` fire reliably), which would
-silently violate the "every step visible" requirement. Printing at the tool
-call site is not dependent on that callback wiring at all.
-"""
-
 from __future__ import annotations
 
 import json
