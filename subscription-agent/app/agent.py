@@ -10,7 +10,6 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from .logging_callback import ReActConsoleLogger
 from .tools import get_tools
 
-# Default per-provider model. Overridable via GROQ_MODEL / OPENAI_MODEL env vars.
 _DEFAULT_MODELS = {
     "groq": "llama-3.3-70b-versatile",
     "openai": "gpt-4o-mini",
