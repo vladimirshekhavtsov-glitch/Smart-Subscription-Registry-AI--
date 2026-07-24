@@ -1,13 +1,3 @@
-"""CLI entrypoint for the Smart Subscription Registry agent.
-
-Usage:
-    python -m app.main                          # interactive REPL
-    python -m app.main "Есть ли у меня платежи на этой неделе?"   # one-shot
-    AGENT_QUESTION="..." python -m app.main      # one-shot via env var
-                                                  # (handy for `docker compose up`
-                                                  # without an attached TTY)
-"""
-
 from __future__ import annotations
 
 import os
@@ -56,8 +46,6 @@ def main() -> None:
     load_dotenv()
     _check_api_key()
 
-    # Imported after load_dotenv/_check_api_key so a missing key fails fast
-    # with a friendly message instead of a ChatOpenAI stack trace.
     from .agent import build_agent_executor
 
     executor = build_agent_executor()
