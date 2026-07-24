@@ -1,14 +1,3 @@
-"""Unit tests for the pure business logic in app/tools_core.py.
-
-Written with the stdlib `unittest` module (no LangChain import needed here),
-so these tests do not depend on any LLM/agent framework being installed —
-but the test classes are still auto-discovered and run fine by `pytest`,
-which is what the README recommends for day-to-day use.
-
-Run with either:
-    pytest
-    python -m unittest discover -s tests
-"""
 
 from __future__ import annotations
 
